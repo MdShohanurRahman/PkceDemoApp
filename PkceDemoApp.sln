@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PkceDemoApp", "PkceDemoApp.csproj", "{4DB89C7A-C3AB-45D1-B6E2-F517A07C12EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB89C7A-C3AB-45D1-B6E2-F517A07C12EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB89C7A-C3AB-45D1-B6E2-F517A07C12EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB89C7A-C3AB-45D1-B6E2-F517A07C12EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB89C7A-C3AB-45D1-B6E2-F517A07C12EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

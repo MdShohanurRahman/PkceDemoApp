@@ -1,0 +1,21 @@
+@{
+    ViewBag.Title = "OAuth Callback";
+}
+@if (ViewBag.Error != null)
+{
+    <div style="color:red;text-align:center;margin-top:2em;">
+        <h2>Error</h2>
+        <div><strong>@ViewBag.Error</strong></div>
+        @if (ViewBag.ErrorDescription != null)
+        {
+            <div>@ViewBag.ErrorDescription</div>
+        }
+    </div>
+}
+else
+{
+    <div style="text-align:center;margin-top:2em;">Redirecting...</div>
+    <script>
+        window.location = '/';
+    </script>
+}
