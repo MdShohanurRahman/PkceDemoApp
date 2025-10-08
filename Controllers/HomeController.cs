@@ -17,7 +17,7 @@ namespace PkceDemoApp.Controllers
         private static readonly string ClientSecret = System.Configuration.ConfigurationManager.AppSettings["ClientSecret"];
         private static readonly string TenantId = System.Configuration.ConfigurationManager.AppSettings["TenantId"];
         private static readonly string RedirectUri = System.Configuration.ConfigurationManager.AppSettings["RedirectUri"];
-        private const string Authority = "https://login.microsoftonline.com/" + TenantId;
+        private static readonly string Authority = "https://login.microsoftonline.com/" + TenantId;
         private const string Scope = "openid profile email";
 
         [AcceptVerbs(HttpVerbs.Get | HttpVerbs.Post)]
